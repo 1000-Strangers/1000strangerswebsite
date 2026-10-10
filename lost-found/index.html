@@ -377,6 +377,40 @@ class Component extends DCLogic {
   }
   static NI = ['Antrim', 'Armagh', 'Down', 'Fermanagh', 'Derry', 'Tyrone'];
   static ROI = ['Carlow', 'Cavan', 'Clare', 'Cork', 'Donegal', 'Dublin', 'Galway', 'Kerry', 'Kildare', 'Kilkenny', 'Laois', 'Leitrim', 'Limerick', 'Longford', 'Louth', 'Mayo', 'Meath', 'Monaghan', 'Offaly', 'Roscommon', 'Sligo', 'Tipperary', 'Waterford', 'Westmeath', 'Wexford', 'Wicklow'];
+  static WARDEN = {
+    Antrim: 'https://antrimandnewtownabbey.gov.uk/residents/dogs/dog-control/',
+    Armagh: 'https://www.armaghbanbridgecraigavon.gov.uk/resident/dog-control/',
+    Carlow: 'https://carlow.ie/veterinary/animal-welfare-and-control/stray-dog-control',
+    Cavan: 'https://www.cavancoco.ie/services/environment-climate-action/animal-welfare/dog-pound/',
+    Clare: 'https://www.clarecoco.ie/environment-water-and-waste/animal-welfare-and-control-animals/dog-control-service-and-licences',
+    Cork: 'https://www.corkcity.ie/en/council-services/services/dogs-animal-welfare/dog-warden/',
+    Derry: 'https://www.derrystrabane.com/services/health-communitywellbeing/dog-control-animal-welfare',
+    Donegal: 'https://www.donegalcoco.ie/en/services/other-services/veterinary-services/dog-control',
+    Down: 'https://www.newrymournedown.org/dogs-and-animal-welfare',
+    Dublin: 'https://www.dublincity.ie/animal-welfare/about-animal-welfare-unit/contact-animal-welfare-unit',
+    Fermanagh: 'https://www.fermanaghomagh.com/residential-services/welfare-of-animals-act-ni-2011/',
+    Galway: 'https://www.galwaycity.ie/services/environment/environment-services/control-of-dogs',
+    Kerry: 'https://www.kerrycoco.ie/environment/dog-control/',
+    Kildare: 'https://kildarecoco.ie/AllServices/VeterinaryServices/ControlofDogs/DogWardenService/',
+    Kilkenny: 'https://kilkennycoco.ie/eng/services/environment/veterinary_service/control_of_dogs/',
+    Laois: 'https://laois.ie/newsroom/2026/midland-animal-care-ltd-appointed-to-provide-dog-warden-services-in-laois',
+    Leitrim: 'https://www.leitrim.ie/council/services/animal-services/control-of-dogs/dog-warden/',
+    Limerick: 'https://www.limerick.ie/council/services/environment-and-climate-action/animal-control/control-of-dogs',
+    Longford: 'https://www.longfordcoco.ie/services/environment/animal-welfare-and-veterinary/longford-dog-pound/',
+    Louth: 'https://www.louthcoco.ie/services/dog-pound/',
+    Mayo: 'https://www.mayo.ie/dog-warden',
+    Meath: 'https://www.meath.ie/council/council-services/environment/control-of-animals/dogs',
+    Monaghan: 'https://monaghan.ie/environment/dog-control/',
+    Offaly: 'https://www.offaly.ie/dog-warden/',
+    Roscommon: 'https://www.roscommoncoco.ie/en/services/animal-welfare/dog-control-services/',
+    Sligo: 'https://www.sligococo.ie/Environment/ControlofAnimals/',
+    Tipperary: 'https://www.tipperarycoco.ie/veterinary/control-dogs-regulations-enforcement',
+    Tyrone: 'https://www.midulstercouncil.org/dogs',
+    Waterford: 'https://waterfordcouncil.ie/services/environment/dog-control/',
+    Westmeath: 'https://www.westmeathcoco.ie/en/ourservices/environment/animalwelfareveterinaryservices/dogcontrol/',
+    Wexford: 'https://www.wexfordcoco.ie/environment-and-climate-change/animal-control/dog-warden-and-stray-dog-shelter',
+    Wicklow: 'https://www.wicklow.ie/Living/Services/Environment/Veterinary-Services/Dog-Control'
+  };
   state = { mode: 'lost', pet: 'dog', county: '' };
   renderVals() {
     const l = this.state.mode === 'lost';
@@ -394,7 +428,7 @@ class Component extends DCLogic {
       counties: [...Component.ROI, ...Component.NI].sort(),
       county: c,
       pickCounty: e => this.setState({ county: e.target.value }),
-      wardenHref: c ? 'https://www.google.com/search?q=' + encodeURIComponent(q) : '#',
+      wardenHref: c ? (Component.WARDEN[c] || 'https://www.google.com/search?q=' + encodeURIComponent(q)) : '#',
       goBg: c ? '#F4F4F2' : '#262626', goFg: c ? '#0B0B0B' : '#5E5E5C', goPointer: c ? 'auto' : 'none'
     };
   }
