@@ -1,0 +1,47 @@
+# 1000 Strangers
+
+> A free short film and website encouraging people in Ireland (north and south) to adopt or foster rescue animals. Not tied to any one shelter or charity.
+
+## Pages
+- [Home](https://1000strangers.com/): the film and the campaign
+- [The numbers](https://1000strangers.com/numbers/): dogs entering Irish council pounds each year, outcomes, and who pays for rescue
+- [Adopt](https://1000strangers.com/adopt/): how adopting from an Irish rescue works, fostering, volunteering, common myths
+- [Shelters](https://1000strangers.com/shelters/): directory of 141 rescues, shelters and council pounds across all 32 counties, with donate links and cruelty helplines
+- [Lost and found](https://1000strangers.com/lost-found/): what to do if you lose or find a pet in Ireland
+- [About](https://1000strangers.com/about/): who made the film and how rescues can use it
+
+## Shelters by county
+- [County Antrim](https://1000strangers.com/shelters/antrim/)
+- [County Armagh](https://1000strangers.com/shelters/armagh/)
+- [County Carlow](https://1000strangers.com/shelters/carlow/)
+- [County Cavan](https://1000strangers.com/shelters/cavan/)
+- [County Clare](https://1000strangers.com/shelters/clare/)
+- [County Cork](https://1000strangers.com/shelters/cork/)
+- [County Derry](https://1000strangers.com/shelters/derry/)
+- [County Donegal](https://1000strangers.com/shelters/donegal/)
+- [County Down](https://1000strangers.com/shelters/down/)
+- [County Dublin](https://1000strangers.com/shelters/dublin/)
+- [County Fermanagh](https://1000strangers.com/shelters/fermanagh/)
+- [County Galway](https://1000strangers.com/shelters/galway/)
+- [County Kerry](https://1000strangers.com/shelters/kerry/)
+- [County Kildare](https://1000strangers.com/shelters/kildare/)
+- [County Kilkenny](https://1000strangers.com/shelters/kilkenny/)
+- [County Laois](https://1000strangers.com/shelters/laois/)
+- [County Leitrim](https://1000strangers.com/shelters/leitrim/)
+- [County Limerick](https://1000strangers.com/shelters/limerick/)
+- [County Longford](https://1000strangers.com/shelters/longford/)
+- [County Louth](https://1000strangers.com/shelters/louth/)
+- [County Mayo](https://1000strangers.com/shelters/mayo/)
+- [County Meath](https://1000strangers.com/shelters/meath/)
+- [County Monaghan](https://1000strangers.com/shelters/monaghan/)
+- [County Offaly](https://1000strangers.com/shelters/offaly/)
+- [County Roscommon](https://1000strangers.com/shelters/roscommon/)
+- [County Sligo](https://1000strangers.com/shelters/sligo/)
+- [County Tipperary](https://1000strangers.com/shelters/tipperary/)
+- [County Tyrone](https://1000strangers.com/shelters/tyrone/)
+- [County Waterford](https://1000strangers.com/shelters/waterford/)
+- [County Westmeath](https://1000strangers.com/shelters/westmeath/)
+- [County Wexford](https://1000strangers.com/shelters/wexford/)
+- [County Wicklow](https://1000strangers.com/shelters/wicklow/)
+
+Contact: info@1000strangers.com
